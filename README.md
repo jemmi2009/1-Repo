@@ -4,13 +4,21 @@
 
 A public repository showcasing an amazing project.
 
-## 🎯 About
+## 🎯 AI POWERED productivity 
 
-This repository contains a collection of code and resources for [describe your project purpose here]. Whether you're looking to [use case 1], [use case 2], or [use case 3], this project provides the tools and documentation you need.
+This repository contains a collection of code and resources for This project is an AI-powered smart assistant designed to eliminate daily workflow friction. It acts as an ambient workspace companion that uses a lightweight LLM API (like Google Gemini or Claude) to analyze your markdown notes, automate daily task prioritization based on deadliness, and auto-generate structured summaries or micro-journals from raw, messy text. Unlike heavy productivity suites, it operates directly in the terminal or a minimal web UI for distraction-free execution. Whether you're looking to, this project provides the tools and documentation you need.
 
 ## ✨ Features
 
-- 🚀 [Feature 1] - Brief description
+- 🚀 [Feature 1] - ## Features
+
+* **Smart Prioritization:** Automatically ranks tasks by impact and deadlines using contextual AI analysis.
+* **Contextual Summarization:** Transforms lengthy meeting transcripts or chaotic brain dumps into structured action items.
+* **Smart Todo Generation:** Extracts hidden tasks from everyday markdown notes and inserts them into your active dashboard.
+* **Privacy-First Operations:** Supports fully localized execution with Ollama or encrypted cloud API routing.
+* **Zero-Friction UI:** Built for speed with instant terminal command arguments and global hotkey triggers.
+* **Progress Diagnostics:** Provides daily AI-generated insights regarding your productivity patterns and workflow bottlenecks.
+
 - 📦 [Feature 2] - Brief description
 - 🔧 [Feature 3] - Brief description
 - 📚 [Feature 4] - Brief description
