@@ -1,32 +1,34 @@
 # 1-Repo
 
-> I'm the best
+> AI-Powered Productivity Assistant
 
-A public repository showcasing an amazing project.
+An intelligent workspace companion designed to eliminate daily workflow friction through smart task prioritization, contextual analysis, and privacy-first operations.
 
-## 🎯 AI POWERED productivity 
+## 🎯 Overview
 
-This repository contains a collection of code and resources for This project is an AI-powered smart assistant designed to eliminate daily workflow friction. It acts as an ambient workspace companion that uses a lightweight LLM API (like Google Gemini or Claude) to analyze your markdown notes, automate daily task prioritization based on deadliness, and auto-generate structured summaries or micro-journals from raw, messy text. Unlike heavy productivity suites, it operates directly in the terminal or a minimal web UI for distraction-free execution. Whether you're looking to, this project provides the tools and documentation you need.
+This repository contains an AI-powered smart assistant that transforms how you work. It acts as an ambient workspace companion that understands your context, prioritizes your tasks, and keeps you focused on what matters most.
 
 ## ✨ Features
 
-- 🚀 [Feature 1] - ## Features
-
-* **Smart Prioritization:** Automatically ranks tasks by impact and deadlines using contextual AI analysis.
-* **Contextual Summarization:** Transforms lengthy meeting transcripts or chaotic brain dumps into structured action items.
-* **Smart Todo Generation:** Extracts hidden tasks from everyday markdown notes and inserts them into your active dashboard.
-* **Privacy-First Operations:** Supports fully localized execution with Ollama or encrypted cloud API routing.
-* **Zero-Friction UI:** Built for speed with instant terminal command arguments and global hotkey triggers.
-* **Progress Diagnostics:** Provides daily AI-generated insights regarding your productivity patterns and workflow bottlenecks.
-
-- 📦 [Feature 2] - Brief description
-- 🔧 [Feature 3] - Brief description
-- 📚 [Feature 4] - Brief description
+- 🤖 **Smart Prioritization** - Automatically ranks tasks by impact and deadlines using contextual AI analysis
+- 📝 **Contextual Summarization** - Transforms meeting transcripts and notes into structured action items
+- ✅ **Smart Todo Generation** - Extracts hidden tasks from markdown notes directly into your dashboard
+- 🔒 **Privacy-First Operations** - Supports fully localized execution with Ollama or encrypted cloud APIs
+- ⚡ **Zero-Friction UI** - Built for speed with instant terminal commands and global hotkey triggers
+- 📊 **Progress Diagnostics** - Daily AI-generated insights on productivity patterns and workflow bottlenecks
 
 ## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
-- [List any required dependencies or tools]
+
+- **Node.js** (v18 or higher) or **Python** (v3.10 or higher)
+- **Git** (v2.0 or higher)
+- **AI Backend** (choose one):
+  - [Ollama](https://ollama.ai) - For local, privacy-first execution
+  - OpenAI API key - For cloud-based AI capabilities
+- **System Requirements**:
+  - 4GB RAM minimum (8GB recommended)
+  - macOS, Linux, or Windows with WSL2
 
 ## 🚀 Getting Started
 
@@ -37,45 +39,57 @@ Before you begin, ensure you have the following installed:
 git clone https://github.com/jemmi2009/1-Repo.git
 cd 1-Repo
 
-# [Add your specific installation steps]
+# Install dependencies
+npm install
+# or
+pip install -r requirements.txt
+
+# Configure your AI backend
+cp .env.example .env
+# Edit .env with your Ollama endpoint or API keys
 ```
 
 ### Usage
 
 ```bash
-# [Add basic usage examples]
+# Start the assistant
+npm start
+# or
+python main.py
+
+# Use global hotkey (Ctrl+Shift+A) to trigger quick capture
+# Access dashboard at http://localhost:3000
 ```
 
 ## 📖 Documentation
 
-For detailed documentation, please visit [link to docs or wiki].
+For detailed documentation, visit [docs](./docs) or [Wiki](https://github.com/jemmi2009/1-Repo/wiki).
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how you can help:
+Contributions are welcome! Here's how:
 
 1. **Fork** the repository
-2. **Create** a new branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)
+2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
+3. **Commit** changes (`git commit -m 'Add AmazingFeature'`)
+4. **Push** to branch (`git push origin feature/AmazingFeature`)
 5. **Open** a Pull Request
 
-Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
 ## 🙋 Support
 
-If you have questions or need help:
-- Open an [Issue](https://github.com/jemmi2009/1-Repo/issues)
-- Check existing [Discussions](https://github.com/jemmi2009/1-Repo/discussions)
+Need help?
+- 📌 Open an [Issue](https://github.com/jemmi2009/1-Repo/issues)
+- 💬 Check [Discussions](https://github.com/jemmi2009/1-Repo/discussions)
 
 ## 👨‍💻 Author
 
-**jemmi2009**
-- GitHub: [@jemmi2009](https://github.com/jemmi2009)
+**jemmi2009** - [GitHub Profile](https://github.com/jemmi2009)
 
 ---
 
